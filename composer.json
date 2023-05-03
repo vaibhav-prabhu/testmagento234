@@ -1,0 +1,26 @@
+{
+    "name": "humcommerce/company-account",
+    "description": "Magento 2 B2B module for company account management",
+    "type": "magento2-module",
+    "license": [
+        "MIT"
+    ],
+    "authors":[
+        {
+            "name": "Humcommerce",
+            "email":"hello@humcommerce.com"
+        }
+    ],
+    "version": "1.0.0",
+    "keywords":[
+        "Magento 2"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Humcommerce\\CompanyAccount\\": ""
+        }
+    }
+}
